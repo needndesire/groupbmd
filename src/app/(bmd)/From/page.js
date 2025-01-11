@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import Swal from 'sweetalert2';
 import HaveDoctorPaper from './HaveDoctorPaper';
 
@@ -19,8 +19,8 @@ export default function Page() {
       showConfirmButton: false,
       timer: 1000
     });
-  
-    route.push('/DoctorDetail'); // Use redirect to navigate to the doctor page
+   // Use redirect to navigate to the doctor page
+    // route.push('/DoctorDetail');
 
   }
 
