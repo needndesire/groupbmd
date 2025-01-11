@@ -1,12 +1,14 @@
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   return (
     <>
     <section>
       <div className='p-5'>
-        find doctor detail
+       <p>
+         find doctor detail
         hi,this is Neeshu Kumar 
+        </p>
       </div>
     </section>
     </>
